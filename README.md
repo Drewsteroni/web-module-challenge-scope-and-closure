@@ -43,6 +43,9 @@ Find the file `index.js` and complete the tasks.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+  
+  closure is when code is functional without interference from other code
+
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -64,9 +67,16 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+
+  const newRoll = Math.floor(Math.random() * 6). Because it's a constant nested within a function
+
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+
+The string "Dan rolled a" is always the same. The roll number can change.
+
 c. What is the lexical scope of `newRoll`? 
 
+The lexical scope is const dansRoll = personalDice("Dan"); and const zoesRoll = personalDice("Zoe");
 
 ### Task 3 - Stretch Goals
 
